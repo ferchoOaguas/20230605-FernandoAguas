@@ -1,0 +1,35 @@
+ 81  git init
+   82  touch Readme.md
+   83  git add .
+   84  git config user.name "ferchoOaguas"
+   85  git config user.email "ferchoaguas@gmail.com"
+   86  git commit -m "Vinculando repositorios"
+   87  git branch -M main
+   88  git remote add origin https://github.com/ferchoOaguas/20230605-FernandoAguas.git
+   89  git push origin main
+   90  touch comandos.txt main.js index.html
+   91  git add .
+   92  git commit -m "Subiendo archivos comandos.txt main.js index.html"
+   93  git push origin main
+   94  git branch feature01
+   95  git checkout feature01
+   96  mkdir Terminal Hardware
+   97  cd Terminal
+   98  resumen.txt
+   99  touch resumen.txt
+  100  cd ..
+  101  cd Hardware
+  102  touch resumen.txt
+  103  cd ..
+  104  ls -r
+  105  git add .
+  106  git commit -m "Subiendo estructura de carpetas a feature01"
+  107  git push origin feature01
+  108  git branch feature02
+  109  git checkout feature02
+  110  git add .
+  111  git commit -m "Subiendo resumen de Hardware y Terminal a feature02"
+  112  git push origin feature02
+  113  git checkout main
+  114  mv comandos.txt comandosUtilizados.txt
+  115  history
