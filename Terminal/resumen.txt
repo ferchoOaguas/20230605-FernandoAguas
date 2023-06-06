@@ -1,0 +1,6 @@
+Comandos terminal:
+·pwd: muestra ubicación actual
+·ls -r: muestra contenido de carpetas en ubicación actual de manera recursiva
+·clear: borra la pantalla de la terminal
+·mkdir: crea un nuevo directorio
+·touch: crea un nuevo archivo

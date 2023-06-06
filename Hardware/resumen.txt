@@ -1,0 +1,4 @@
+Partes internas de un computadora:
+·Motherboard
+·GPU
+.Memoria SSD
